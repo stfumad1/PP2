@@ -1,0 +1,6 @@
+bool (False)
+bool (0)
+bool("")
+bool (())
+bool ([])
+bool({})
