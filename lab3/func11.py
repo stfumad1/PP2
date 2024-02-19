@@ -1,7 +1,7 @@
-def pal(s):
+def palindrome(s):
     return s == s[::-1]
 
 
 s = input("")
-result = pal(s)
+result = palindrome(s)
 print(result)

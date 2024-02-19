@@ -7,7 +7,7 @@ class Myclass:
         self.s = input("")
 
     def upper(self):
-        print(self.s.upper())
+        print(self.s.lower())
 
 
 result = Myclass()
