@@ -1,2 +1,9 @@
+def countuplow(s):
+    upper = sum (1 for char in s if char.isupper())
+    low = sum(1 for char in s if char.islower())
+    return upper , low
+
 s = input("")
-print (sum(item for item in s))
+upper , low = countuplow(s)
+print (upper)
+print (low)
