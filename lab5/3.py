@@ -1,6 +1,6 @@
 import re
 s = input("")
-result = re.findall(r"[a-z]_[a-z]", s)
+result = re.findall(r"[a-z]+_[a-z]", s)
 print(result)
 '''3
 def test(pattern, testinput, expectedResult):
